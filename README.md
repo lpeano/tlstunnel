@@ -25,4 +25,6 @@ After this you can copy your executable and config in same folder and run them.
 
 ## Kubernetes client
 
-For kubernete client you have to define the path 127.0.0.1:8080 as proxy for HTTPS and HTTP like follow example in .kube\config:
+For kubernete client you have to define the path 127.0.0.1:8080 as proxy for HTTPS and HTTP like follow example in .kube\config as follow:
+
+       kubectl config  set-cluster <cluster-name> --proxy-url=http://127.0.0.1:808
