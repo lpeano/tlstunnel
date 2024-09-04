@@ -1,0 +1,11 @@
+loglevel: ERROR
+# Do not change value of poolsize!
+# Not yet supported
+poolsize: 1
+tlscfg:
+  certfile: C:\Users\lpeano\projects\Bozze\tlstunnel\peano.crt
+  keyfile: C:\Users\lpeano\projects\Bozze\tlstunnel\peano.key
+  proxyhost: prx.buffettifinance.com:443
+netcfg:
+  keepalive: 2s
+  deadline: 30s
