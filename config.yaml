@@ -5,7 +5,7 @@ poolsize: 1
 tlscfg:
   certfile: C:\Users\lpeano\projects\Bozze\tlstunnel\peano.crt
   keyfile: C:\Users\lpeano\projects\Bozze\tlstunnel\peano.key
-  proxyhost: prx.buffettifinance.com:443
+  proxyhost: host:port
 netcfg:
   keepalive: 2s
   deadline: 30s
