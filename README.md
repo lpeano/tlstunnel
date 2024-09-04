@@ -18,3 +18,11 @@ It contains following values in yaml format
       netcfg:
         keepalive: 2s
         deadline: 30s
+
+You require the client certificate to connect to gateway.
+
+After this you can copy your executable and config in same folder and run them.
+
+## Kubernete client
+
+For kubernete client you have to define the path 127.0.0.1:8080 as proxy for HTTPS and HTTP like follow example in .kube\config:
