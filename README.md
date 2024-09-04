@@ -12,8 +12,8 @@ It contains following values in yaml format
       # Not yet supported
       poolsize: 1
       tlscfg:
-        certfile: C:\Users\lpeano\projects\Bozze\tlstunnel\peano.crt
-        keyfile: C:\Users\lpeano\projects\Bozze\tlstunnel\peano.key
+        certfile: C:\path\to\public.crt
+        keyfile: C:\path\to\privat.key
         proxyhost: host:port
       netcfg:
         keepalive: 2s
